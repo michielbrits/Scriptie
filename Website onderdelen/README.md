@@ -1,8 +1,20 @@
 ## Image slider:  
-Hier worden slides ingesteld. De slides verwijzen ook door naar een speciefieke pagina. Dit kan in theorie elke pagina van de website zijn. In de praktijk zal hiervoor een landingspagina aangemaakt worden.
+Dit is het eerste wat de bezoekers te zien krijgen als ze op onze website komen. De slider sectie is het eerste onderdeel dat in het oog springt. 
+Hierop kan het bedrijf zelf slides instellen die navigaren naar een achterliggende pagina op de website.
+De doorverwijspagina, de achtergrondafbeelding, de titel en de subtitel zijn in te stellen vanuit de CMS.
 ![Slider](Slider.png)
+Dit is de weergave van hoe deze sectie eruit ziet op het backend gedeelte. De umbraco backoffice word hier getoond.
+Hier worden slides ingesteld. De slides verwijzen ook door naar een specifieke pagina. Dit kan in theorie elke pagina van de website zijn. In de praktijk zal hiervoor een landingspagina aangemaakt worden.
+Wat een landingspagina juist inhoudt wordt later toegeligd.
+![Slider](Slider_Umbraco.png)
+Voor het selecteren van een image zal er een apart venster getoond worden waaruit je uit verschillende images kan kiezen die geupload zijn bij de media sectie van Umbraco.
+![Slider_Image](slider_image.png)
+Een volledig ingevuld slider item zal er dan als volgt uitzien
+![Slider_Image](slider_instellen.png)
 
-
+De technologieen stel je in door een pagina van de website te kiezen. Als he hier op "Add" drukt zal je volgend menu tevoorschijn krijgen. 
+Hierin kan je dan navigeren naar een pagina binnen de website en deze selecteren.
+![Slider_Image](slider_technologie.png)
 ## Technologieen: 
 Dit is hoe de technologien sectie eruit ziet op de website.
 Via Umbraco backoffice kun je makkelijk per pagina de specifieke technologieen instellen. De technologieen moeten wel eerst aangemaakt zijn onder de umbraco sectie "Technologieen". Als er niks wordt opgegeven zullen alle technologieen worden weergegeven. De titel "Technologieen" kun je instellen onder de pagina "technologieen". 

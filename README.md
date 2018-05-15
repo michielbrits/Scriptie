@@ -1,7 +1,13 @@
 #Introductie
 
+## context/situering
 ### Inleiding
 Samen met Axel Van Uffelen maak ik de website voor het bedrijf ABC-Groep. Onze opdracht bestaat er uit een nieuwe website voor het bedrijf te ontwikkelen aangezien de huidige website niet meer up-to-date is. Omdat alles dynamisch moet zijn hebben ze ons gevraagd een content management systeem te voorzien op de backend, meer bepaald Umbraco. 
+
+
+## beschrijving stagebedrijf
+ TODO
+## Probleemstelling/opgave
 
 ### Waarom?
 
@@ -22,6 +28,8 @@ Om de website volledig dynamisch opgebouwd te krijgen gaan we alles onderverdele
 Voor onze bachelorproef tot een goed einde te brengen is het vooral nodig dat we ook goed luisteren naar de feedback. Aangezien Umbraco een heel uitgebreid Content-Management-Systeem is. Zo kan je dezelfde problemen op veel verschillende manier oplossen. Is het zeker in het begin soms moeilijk om te zien wat nu juist de beste oplossing is. Zeker omdat er heel veel verschillende DataTypes beschikbaar zijn, die je vervolgens ook nog zelf kan aanpassen naargelang jouw voorkeuren.
 
  
+### E-commerce oplossing voor het intranet
 
+TODO
 
 
