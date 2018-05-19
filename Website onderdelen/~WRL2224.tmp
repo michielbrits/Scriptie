@@ -13,24 +13,12 @@ Een volledig ingevuld slider item zal er dan als volgt uitzien
 ![Slider_Image](slider_instellen.png)
 
 ## Bedrijfsnoden: 
-![Slider](Technologie.png)
 De bedrijfsnoden stel je in door een pagina van de website te kiezen. Als he hier op "Add" drukt zal je volgend menu tevoorschijn krijgen. 
 Hierin kan je dan navigeren naar een pagina binnen de website en deze selecteren.
 ![Slider_Image](slider_technologie.png)
+![Slider](Technologie.png)
 Dit is hoe de bedrijfsnoden sectie eruit ziet op de website.
 Via Umbraco backoffice kun je makkelijk per pagina de specifieke bedrijfsnoden instellen. De bedrijfsnoden moeten wel eerst aangemaakt zijn onder de umbraco sectie "Bedrijfsnoden". 
-
-
-Voor het instellen van bedrijfsnoden op de homepagina dien je eerst te zien dat er bedrijfsnoden zijn aangemaakt onder de bedrijfsnoden sectie.
-Voor het kiezen van de bedrijfsnoden maak je gebruik van de property “Weer te geven bedrijfsnoden”
-![Bedrijfsnoden instellen]( bedrijfsnoden_instellen.png)
-Vervolgens als je bij dit element op “Add” drukt zullen aan de rechterzijde van het scherm al de bedrijfsnoden getoond worden die aangemaakt zijn onder de bedrijfsnoden sectie. De bedrijfsnoden die getoond moeten worden op de homepagina worden hier aangevinkt en uiteindelijk dient de pagina opgeslagen te worden.
-
-Voor het aanmaken van een bedrijfsnood item of pagina wat in dit geval hetzelfde is dien je naar de bedrijfsnoden sectie te navigeren hieronder kan je een nieuwe bedrijfsnood aanmaken.
-
-Zoals op elke pagina geef je eerst een titel een een Beschrijving mee.
-Vervolgens heb je een feature block die je 
-
 Voor het aanmaken van een technologie dient er naar de technologie sectie genavigeerd te worden in umbraco. Hieronder kan je een technologie detailpagina aanmaken
 ![Technologie aanmaken](Technologie pagina maken.png)
 Dan zal je de properties voor deze detailpagina kunnen instellen. Zo zal je een paar titels, een beschrijving en een paar beschikbare oplossingen kunnen opgeven. De mogelijkheid om een featureblock aan te maken bestaat ook. Wat een featureblock juist inhoudt wordt later toegeligt.
