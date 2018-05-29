@@ -16,14 +16,14 @@ Een volledig ingevuld slider item zal er dan als volgt uitzien
 
 Via Umbraco backoffice kun je per pagina de specifieke bedrijfsnoden instellen. De bedrijfsnoden moeten wel eerst aangemaakt zijn onder de umbraco sectie "Bedrijfsnoden". 
 
-Hier worden de bedrijfsnoden getoond op de website (de frontend). De bedrijfsnoden dienen voor het aantrekken van mogelijke klanten, met andere woorden bedrijven die op zoek zijn naar Java, .NET of sharepoint consultants. De bedoeling is dat als deze klanten op zoek gaan naar een oplossing voor hun bedrijfsnoden, zij via een zoekmachine makkelijk op deze website gaan terechtkomen, door SEO (search engine optimization) hoopt het bedrijf ABC-Groep meer bezoekers te trekken.
+Hier worden de bedrijfsnoden getoond op de website (de frontend). De bedrijfsnoden dienen voor het aantrekken van mogelijke klanten, met andere woorden bedrijven die op zoek zijn naar Java, .NET of sharepoint consultants. De bedoeling is dat als deze klanten op zoek gaan naar een oplossing voor hun bedrijfsnoden, zij via een zoekmachine makkelijk op deze website gaan terechtkomen, door middel van SEO (search engine optimization) hoopt het bedrijf ABC-Groep meer bezoekers te trekken.
 ![Slider](Technologie.png)
-De bedrijfsnoden stel je in door een item te kiezen dat is aangemaakt onder de bedrijfsnoden sectie. Doormiddel van een selection picker op de specifieke pagina waar je bedrijfsnoden wil aanmaken zal je uit de verschillende bedrijfsnoden kunnen kiezen die aangemaakt zijn onder bedrijfsnoden.
+De bedrijfsnoden stel je in door een item te kiezen dat is aangemaakt onder de bedrijfsnoden sectie. Doormiddel van een multi node tree picker op de pagina waar je bedrijfsnoden wil tonen zal je uit de verschillende bedrijfsnoden kunnen kiezen die aangemaakt zijn onder bedrijfsnoden.
 
 ![IMAGE](TODO)
 Voor het instellen van bedrijfsnoden op de homepagina dien je eerst te zien dat er bedrijfsnoden zijn aangemaakt onder de bedrijfsnoden sectie.
 Voor het kiezen van de bedrijfsnoden maak je gebruik van de property “Weer te geven bedrijfsnoden”
-Vervolgens als je bij dit element op “Add” drukt zullen aan de rechterzijde van het scherm al de bedrijfsnoden getoond worden die aangemaakt zijn onder de bedrijfsnoden sectie. Als er niks wordt ingesteld zullen alle bedrijfsnoden worden weergegeven die aangemaakt zijn. 
+Vervolgens als je bij dit element op “Add” drukt zullen aan de rechterzijde van het scherm al de bedrijfsnoden getoond worden die aangemaakt zijn onder de bedrijfsnoden sectie. Eerst was er voorzien dat als men niets insteld standaard alle bedrijfsnoden werden weergegeven die aangemaakt zijn. Dit bleek na testing toch niet zo handig te zijn. Nadien is het aangepast dat alleen de geselecteerde bedrijfsnoden getoond zullen worden.
 De bedrijfsnoden die getoond moeten worden op de specifieke pagina (in dit geval de homepagina) worden hier aangevinkt en uiteindelijk dient de pagina opgeslagen te worden.
 ![Slider_Image](slider_technologie.png)
 
@@ -45,13 +45,12 @@ Vervolgens heb je een feature block die je kan invullen. Deze featureblock is op
 
 ## Oplossingen: 
 Hier worden de verschillende oplossingen getoond. Net zoals bij de projecten en bedrijfsnoden kan je via de umbraco backoffice instellen welke oplossingen er getoond worden. 
-Voor het instellen van oplossingen heb je net zoals bij bedrijfsnoden een selection picker. Deze selection picker wordt voorzien op alle pagina’s waarop bedrijfsnoden getoond moeten worden.
+Voor het instellen van oplossingen heb je net zoals bij bedrijfsnoden een multi node treepicker. Deze multi node treepicker wordt voorzien op alle pagina’s waarop oplossingen getoond moeten worden.
 
 
-De verschillende oplossingen dienen ook wel eerst aangemaakt te worden onder de umbraco pagina "Oplossingen". Op vraag van de project manager is het zo geprogrameerd dat als er geen oplossingen ingesteld worden alle oplossingen getoond zullen worden.
+De verschillende oplossingen dienen ook wel eerst aangemaakt te worden onder de umbraco pagina "Oplossingen". Op vraag van de project manager werd het eerst zo geprogrammeerd dat als er geen oplossingen werden opgegeven, alle oplossingen die beschikbaar waren en gelinkt werden aan deze technologie getoond werden. De link gebeurde dan in de de bedrijfsnoden pagina. Nadien is het aangepast dat het instelbaar is welke oplossingen beschikbaar zijn voor deze technologie. Dit is meer straight-forward voor de website bouwer en zal deze ook niet in de war zijn als er links zien gemaakt met bedrijfsnoden die hij niet direct kan zien op de desbetreffende pagina.
 ![Slider](Oplossingen.png)
-Het aanmaken van een oplossing gebeurt gelijkaardig aan het aanmaken van een bedrijfsnood. Een titel en een beschrijving dienen verplicht ingesteld te worden. Als de websitebouwer dit niet invuld zal Umbraco automatisch het in te vullen veld aanduiden en zal het niet mogelijk zijn de pagina te saven en te publishen vooraleer deze velden worden ingevuld. Verder kunnen er featureblocks aangemaakt worden. Op de oplossingen detailpagina dient er ook een recensie titel ingesteld te worden en daaronder kan je door middel van een selectionpicker Recensies selecteren. Je kan dan kiezen uit alle recensies die aangemaakt zijn onder de umbraco sectie recensies. Hoe recensies worden aangemaakt wordt later nog toegelicht in de scriptie. Een bedrijfsnood is altijd gekoppeld aan 1 of meerdere oplossingen. Voor 1 bedrijfsnood kunnen er meerdere oplossingen zijn, maar 1 oplossing heeft slechts 1 bedrijfsnood. Concreet wil dit zeggen dat je in de bedrijfsnood detailpagina 1 of meerdere oplossingen kan kiezen. Er is dan voor gekozen om deze koppeling weg te laten uit de oplossing detailpagina. Omdat dit alleen voor verwarring en dubbel werk zou zorgen voor de website bouwer.
-
+Het aanmaken van een oplossing gebeurt gelijkaardig aan het aanmaken van een bedrijfsnood. Een titel en een beschrijving dienen verplicht ingesteld te worden. Als de website bouwer dit niet ingevuld heeft zal Umbraco automatisch het in te vullen veld aanduiden en zal het niet mogelijk zijn de pagina te saven en te publishen vooraleer deze velden worden ingevuld. Verder kunnen er featureblocks aangemaakt worden. Op de oplossingen detailpagina dient er ook een recensie titel ingesteld te worden en daaronder kan je door middel van een multi node picker Recensies selecteren. Je kan dan kiezen uit alle recensies die aangemaakt zijn onder de umbraco sectie recensies. Hoe recensies worden aangemaakt wordt later nog toegelicht in de scriptie. Een bedrijfsnood is altijd gekoppeld aan 1 of meerdere oplossingen. Oorspronkelijk was het idee dat voor 1 bedrijfsnood meerdere oplossingen kunnen zijn, maar 1 oplossing heeft slechts 1 bedrijfsnood. Concreet wil dit zeggen dat je in de bedrijfsnood detailpagina 1 of meerdere oplossingen kan kiezen. Er is dan voor gekozen om deze koppeling weg te laten uit de oplossing detailpagina. Omdat dit alleen voor verwarring en dubbel werk zou zorgen voor de website bouwer. Achteraf is dit gewijzigd dat de oplossingen pagina zelf een multi node picker heeft. Hierdoor is de verplichte 1 op veel relatie weggevallen en kan de website veel flexibeler opgebouwd worden. De website bouwer heeft op deze manier ook een veel beter zicht op wat er al dan niet is ingesteld.
 
 
 
@@ -64,7 +63,7 @@ Voor deze projecten in stellen in de umbraco backoffice dient er een titel en ee
 ![Project](Project2.png)
 
 Verder kan er een website adres ingesteld worden, zodat er vanuit de projectpagina naar het desbetreffend project kan navigeren (indien het desbetrefende project online staat en een website betreft)
-De mogelijkheid bestaat om recensies mee te geven om het project extra in de verf te zetten. Deze recensies dienen ook eerst aangemaakt te worden in de umbraco backoffice (later meer hierover) Ten slotte kunnen er ook vacatures ingesteld worden op deze backoffice. Navigeren naar pagina’s binnen de website is altijd goed. Dit verhoogt de stickyness van de website waardoor de bezoekers langer blijven en meer pagina’s bezoeken.
+De mogelijkheid bestaat om recensies mee te geven om het project extra in de verf te zetten. Deze recensies dienen ook eerst aangemaakt te worden in de umbraco backoffice. Later in de scriptie word er duidelijker toegeligd hoe recensies dienen aangemaakt te worden. Ten slotte kunnen er ook vacatures ingesteld worden op de umbraco backoffice. Navigeren naar pagina’s binnen de website is altijd goed. Dit verhoogt de stickyness van de website waardoor de bezoekers langer blijven en meer pagina’s bezoeken.
 ![Project](Projecthumbnail.PNG)
 Onder de Preview tab in de umbraco backoffice kunnen er ook enkele images per project ingesteld worden. Deze images worden geupload van je lokale harde schijf, dus niet van de umbraco media sectie.
 ![Project](Projectdetail.PNG)
@@ -92,10 +91,13 @@ Deze overzichten zijn de overzichten van de projecten en het overzicht van de op
 
 
 ## Feature blocks: 
-Je kunt 1 of meerdere beschrijvingen per feature ingeven. Als er meerdere beschrijvingen opgegeven zijn zullen deze in tabs weergegeven worden. 
-Eerst was er voorzien dat je per featureblock slechts 1 video of image kon toevoegen. Naderehand bleek het logischer dat een video of een filmpje gelinkt werd aan een specifieke tab. Dit hebben we dan aangepast zodat als je op een andere tab drukt zowel de tekst als de image of video zal veranderen.
-
-Beschikbare oplossingen: je kunt kiezen welke oplossingen beschikbaar zijn voor deze technologie. Als er geen zijn opgegeven, zijn alle oplossingen beschikbaar voor deze technologie.
+TODO IMAGE FEATUREBLOCK
+Dit is hoe een featureblock eruit ziet op de frontend. Zoals je kan zien zijn er tabs met verschillende beschrijvingen onder. Per tab kan je ook steeds een image of een filmpje instellen. 
+Als er slechts 1 beschrijving wordt ingesteld zal de lay-out van de featureblock veranderen. Dan worden de tabs niet meer weergegven en wordt enkel de beschrijving en de ingestelde video of afbeelding getoond.
+TODO IMAGE FEATUREBLOCK 1 beschrijving
+Je kunt 1 of meerdere beschrijvingen per featureblock invoeren. Als er meerdere beschrijvingen opgegeven zijn zullen deze in tabs weergegeven worden. 
+TODO IMAGE BACKEND
+Eerst was er voorzien dat je per featureblock slechts 1 video of image kon toevoegen. Naderhand bleek het logischer dat een video of een filmpje gelinkt werd aan een specifieke tab. Dit hebben we dan aangepast zodat als je op een andere tab drukt zowel de tekst als de image of video zal veranderen.
 
 
 ## Ons team: 
@@ -121,14 +123,19 @@ De titel van het artikel en het artikel zelf worden in een kolom links weergegev
 ## Call to action: 
 om de call to action in te stellen begeef je je naar het tabje in de umbraco backoffice "Call to action". Bij "Formulier" geef je de verkregen HTML snippet van clickdimensions op. Deze HTML-code zal door HR gegenereerd moeten worden. Zij kiezen dan welke veldjes en in beperkte mate welke opmaak er meegegeven wordt. Belangrijk is dat alle links in de snippet zeker https zijn, anders zal het formulier door security issues niet geladen worden. De webserver zal blokkeren dat dit geladen wordt.
 
-## Vacatures: 
+## Jobs: 
 ![Slider](vacatures.png)
+Hier zie je de overzichtspagina van de vacatures. De vacatures zijn ook steeds gelinkt aan een specifieke technologie. Hier kan je doormiddel van de tabs ook makkelijk vacatures filteren en sorteren. Als het om een vacature gaat die niet gekoppeld is aan een technologie. Bijvoorbeeld een HR-functie zal deze vacature onder de filter “Overige” geplaats worden.
+
+In de umbraco backend kan je
 stel hier de vacatures om weer te geven in. Deze vacatures dienen ook aangemaakt te worden onder de umbraco pagina "Jobs".
 
 ## Landingspagina
-
+Hieronder zie je hoe een volledig ingestelde landingspagina eruit zit.
 Een landingspagina is een pagina die de websitebouwer aanmaakt en zelf kan instellen. Deze pagina maakt gebruikt van een grid, zodat er zowel afbeeldingen als teksten of eventueel een youtube video ingesteld kan worden. Er zijn ook verschillende lay-outs voorzien voor de website bouwer om uit te kiezen. Bijvoorbeeld 3 kolommen, 2 kolommen,...
+TODO FOTO LANDINGSPAGINA BACKEND
+Na het kiezen van de structuur van de pagina en hoeveel kolommen er getoond dienen te worden, zal je kunnen kiezen uit content types. De content types die beschikbaar zijn zijn: “Embed” voor het weergeven van een youtube video bijvoorbeeld. Vervolgens heb je nog een headline, een afbeelding, eventueel een Quote. Tenslotte is het ook mogelijk om meer van deze kolom structuren op de pagina te zetten. Deze zullen dan onder elkaar getoond worden. Dit zorgt ervoor dat je een pagina volledig naar wens kan aanpassen en kan invullen. Dit betekent dat de structuur van de pagina niet vaststaat maar dat deze kan varieeren naargelang je verder naar beneden scrolt. Op de landingspagina backend pagina is er ook een titel voorzien zodat je een titel bovenaan de pagina kan ingeven die gestijlt wordt door de default template CSS voor titels. Zodat de lay-out van de landingspagina matcht met de rest van de template en website. Er is ook nog gevraagd geweest om de mogelijkheid te voorzien om een prijstabel aan te maken. Aangezien umbraco aanpasbaar is hebben we deze property zelf aangemaakt. In deze tabel kan je de kleur van de tabel kiezen. Een titel dient ook opgegeven te worden. Het prijsteken zal in de praktijk gewoon euro zijn. Een eenheid is ook voorzien. Ten slotte is de tekst van de knop instelbaar en de doelpagina dient ook ingesteld te worden. Dit is hoe een ingevulde tabel op de landingspagina eruit ziet in de umbraco backoffice. TODO IMAGE BACKOFFICE. Dit geeft als resultaat deze pagina op de frontend. TODO IMAGE FRONTEND
 
 ## Navigatie
 
-De navigatie is een tab op de backend die bij bijna alle pagina’s geimplementeerd is. Door deze tab zal je kunne kiezen of deze dient weergeven te worden in de navigatie. Voor de meeste pagina’s zal dit vanzelfsprekend en logisch zijn, maar er kan eventueel ook een landingspagina aangemaakt worden voor een specifieke actie van korte duur. Deze dient dan niet expliciet vermeld te worden in de navigatie maar alleen doorgelinkt te worden door bijvoorbeeld een slider item.
+De navigatie is een tab op de backend die bij bijna alle pagina’s geimplementeerd is. Door deze tab zal je kunnen kiezen of deze dient weergeven te worden in de navigatie. Doormiddel van een checkbox kan je dit aangeven. Voor de meeste pagina’s zal het vanzelfsprekend en logisch zijn dat deze weergegven worden, maar er kan eventueel ook een landingspagina aangemaakt worden voor een specifieke actie die het bedrijf aanbied van korte duur. Deze dient dan niet expliciet vermeld te worden in de navigatie maar alleen doorgelinkt te worden door bijvoorbeeld een slider item.

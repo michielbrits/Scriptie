@@ -2,14 +2,16 @@
 
 ## context/situering
 ### Inleiding
-Samen met Axel Van Uffelen maak ik de website voor het bedrijf ABC-Groep. Onze opdracht bestaat er uit een nieuwe website voor het bedrijf te ontwikkelen aangezien de huidige website niet meer up-to-date is. Omdat alles dynamisch moet zijn hebben ze ons gevraagd een content management systeem te voorzien op de backend, meer bepaald Umbraco. 
+Samen met Axel Van Uffelen maak ik de website voor het bedrijf ABC-Groep. Onze opdracht bestaat er uit een nieuwe website voor het bedrijf te ontwikkelen aangezien de huidige website niet meer up-to-date is. Omdat alles dynamisch moet zijn hebben ze ons gevraagd een content management systeem te voorzien op de backend, meer bepaald Umbraco. Toen bleek dat onze opdracht sneller dan voorzien klaar zou zijn hebben ze ons nog een tweede opdracht gegeven. Deze odpracht bestond eruit het ontwikkelen van een kleine webshop op het intranet. Het intranet is een webapplicatie enkel toegankelijk voor de werknemers binnen het bedrijf.
 
 
 ## beschrijving stagebedrijf
- TODO
-## Probleemstelling/opgave
+ABC-Groep levert ICT consultancy diensten op het vlak van outsourcing, software development, IT services en Best Practice solutions voor Microsoft SharePoint en Odoo.
+ABC-Groep is een overkoepelend bedrijf van meerdere dochterbedrijven. Als eerste dochterbedrijf heb je ACE. Dit bedrijf houd zich bezig met het op maat maken van applicaties, ontwikkeld in .NET. Dit is ook het dochterbedrijf waarbij we stage gelopen hebben. Beyond-IT is een dochterbedrijf dat zich bezig houdt met het op maat maken van sharepoint oplossingen. 
+DynApps is een bedrijf binnen ABC-Groep dat zich bezig houdt met het aanbieden van Odoo oplossingen. Cereus houdt zich bezig met het ontwikkelen en op maat maken van Java en Oracle applicaties. Het is niet zo dat al deze bedrijven onderverdeeld zijn in aparte gebouwen. ABC-Groep heeft 2 locaties. 1 locatie in Geel en 1 locatie in Kalmthout. Vaak is de grens tussen deze dochterbedrijven een beetje vaag. Gericht naar klanten maakt het expliciet uitdragen van welk dochterbedrijf de oplossing afkomstig is niet zoveel uit. Voor de klant draait het erom dat zij een werkende oplossing krijgen voor hut probleem.
+##probleemstelling/opgave
 
-### Waarom?
+### Waarom een nieuwe website?
 
 Omdat de oude website niet meer up-to-date is. De website is ontwikkeld met een tegelstructuur. Heel handig op mobiele apparaten, maar veel minder handig op een laptop op desktop.
 Deze structuur zorgt er ook voor dat je nooit weet waar ergens op de website men zich bevindt. Er is ook geen sprake van *breadcrumbs wat het ook niet handig maakt om naar een bovenliggende pagina of categorie te navigeren.
@@ -28,8 +30,22 @@ Om de website volledig dynamisch opgebouwd te krijgen gaan we alles onderverdele
 Voor onze bachelorproef tot een goed einde te brengen is het vooral nodig dat we ook goed luisteren naar de feedback. Aangezien Umbraco een heel uitgebreid Content-Management-Systeem is. Zo kan je dezelfde problemen op veel verschillende manier oplossen. Is het zeker in het begin soms moeilijk om te zien wat nu juist de beste oplossing is. Zeker omdat er heel veel verschillende DataTypes beschikbaar zijn, die je vervolgens ook nog zelf kan aanpassen naargelang jouw voorkeuren.
 
  
-### E-commerce oplossing voor het intranet
-
-TODO
 
 
+
+
+
+## Beschrijving E-commerce oplossing voor het intranet
+
+### Waarom een E-commerce oplossing voor het intranet?
+
+
+Omdat het regelmatig voorvalt binnen het bedrijf dat er mensen tweedehands spullen verkopen of speelgoed van hun kinderen willen verkopen. Patrick Calleweart had graag een nice-to have uitbreiding voor het bestaande intranet. Omdat het hiervoor een beetje lastig was om dit op een effectieve manier uit te voeren. Daarom hebben wij de opdracht op ons genomen voor het ontwikkelen van een uitbreiding voor het intranet. De bedoeling is dat dat de werknemer die een item verkopen een mail stuurt naar de website bouwer. Dit zal iemand met een HR functie zijn. De mail dient dan een omschrijving te bevatten van het product. In deze omschrijving zal de status van het product omschreven worden. Eventueel ook de rede van de verkoop kan hierin toegelicht worden. Een afbeelding dient ook best meegestuurd te worden. Deze manier van werken zal de flow voor het verkopen van items veel makkelijker maken. Het enigste wat de website bouwer dan nog moet doen is inloggen in de umbraco backend en een pagina aanmaken voor het te verkopen product.
+
+### Verloop
+
+On het begin zijn we vooral bezig geweest met het opzoeken van documentatie van de verschillende umbraco E-commerce oplossingen die beschikbaar zijn. Zo hebben we Merchello, Ucommerce en Tea commerce getest. We hebben deze packages geinstalleerd en werkend gekregen. Na uitvoerig testen en de voor-en nadelen vergeleken te hebben zijn we verdergegaan met het ontwikkelen in Merchello.
+
+### Problemen
+
+Het ontwikkelen van dit project is niet bepaald vlot verlopen. Het intranet is een bestaande applicatie. Dit wil dus zeggen dat de umbraco versie die draait op het intranet een oude versie van umbraco is. Merchello word niet ondersteund op deze versie. De oplossing voor dit probleem was het upgraden van de umbraco versie van het intranet. Echter zijn er aanpassingen gebeurd aan bepaalds dll files van umbraco in dit project. Deze aanpassingen zijn ergens gedocumenteerd geweest maar zijn niet echt makkelijk terug te vinden. Hierdoor is het upgraden van het intranet niet echt een makkelijke en voor de hand liggende oplossing. Aangezien het in het begin ook niet echt duidelijk was wat de juiste requirements waren voor deze opdracht, zijn we nog een keer gaan samenzitten met Patrick Calleweart. Uit dit gesprek werd ons duidelijk dat het niet echt een webshop was maar eerder een reservatie systeem dat vereist was. Het uitvoeren van betalingen en shipment methodes kunnen selecteren was dan ook niet echt van toepassing. Aangezien dit 1 van de belangrijkste redenen zijn op een e-commerce package te gebruiken heeft Sander (onze projectmanager) beslist om niet verder te gaan met Merchello maar ons het te laten programmeren in de bestaande umbraco versie van het intranet. 
