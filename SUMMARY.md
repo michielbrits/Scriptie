@@ -12,7 +12,7 @@
 * [Toekomst](toekomst/README.md)
 * [Resultaten](Resultaten/README.md)
 * [Besluit](Besluit/README.md)
-* [Glossary](Glossary/Glossary.md)
+* [Glossary](Glossary/README.md)
 
 
   
