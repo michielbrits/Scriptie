@@ -28,3 +28,13 @@ HyperText Markup Language is de betekenis van de afkorting HTML.
 In HTML worden containers beschreven. CSS staat voor Cascading Style Sheets. CSS gaat hier verder op in en beschrijft de stijl en de opmaak van de html containers.
 # Razor
 De bedoeling van Razor is in ons geval om data van de backend naar de front-end te krijgen. De syntax is in ons geval bijna hetzelfde als C#, typisch is dat je een razor code block start met een "@{" en eindigt met "}". Razor heeft een simpele programeer syntax. Razor maakt gebruik van de document extensie cshtml. Het is zowel compatibel met C# als met Visual basic
+
+# Agile development 
+Agile is een manier van software ontwikkelen. De vereisten en
+oplossingen voor het project kunnen hiermee op een eenvoudige manier beheerd worden door
+het samenwerken als een team.
+# Scrum: 
+Scrum is een flexibele manier om (software)producten te maken. Er wordt gewerkt in
+multidisciplinaire teams die in korte sprints, met een vaste lengte van 1 tot 4 weken, werkende
+(software) producten opleveren.4
+4http://nl.wikipedia.org/wiki/Scrum (softwareontwikkelmethode)
