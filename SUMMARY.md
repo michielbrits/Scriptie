@@ -25,6 +25,13 @@
       * [Onderdelen](Technisch/Resultaat website/onderdelen.md)
         * [Image slider](Technisch/Onderdelen/Home/Image slider.md)
         * [Bedrijfsnoden](Technisch/Onderdelen/Home/Bedrijfsnoden.md)
+        * [Projecten](Technisch/Onderdelen/Home/Projecten.md)
+        * [Oplossingen](Technisch/Onderdelen/Home/Oplossingen.md)
+        * [Recensies](Technisch/Onderdelen/Home/Recensies.md)
+        * [Ons team](Technisch/Onderdelen/Home/Ons team.md)
+        * [Call to action](Technisch/Onderdelen/Home/Call to action.md)
+        * [Vacatures](Technisch/Onderdelen/Home/Vacatures.md)
+        * [Popup](Technisch/Onderdelen/Home/Popup.md)
   * Webshop
     * Analyse
     * Aanpak
