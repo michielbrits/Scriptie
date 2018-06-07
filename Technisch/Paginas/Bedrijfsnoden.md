@@ -8,9 +8,5 @@ In feature blocks kan het probleem op een meer gestructureerde manier beschreven
 
 ### Oplossingen
 
-In dit onderdeel worden oplossingen die aan deze bedrijfsnood vasthangen opgelijst. Dit is een verzameling van de pagina's die onder de pagina "Oplossingen" zijn gemaakt. Bij het klikken op een item zal worden doorverwezen naar een oplossing-detailpagina. De content manager kiest welke oplossingen op de home pagina moeten worden weergegeven, wordt er niets gekozen dan zal dit onderdeel weggelaten worden.
-
-
-
-
+In dit onderdeel worden oplossingen die aan deze bedrijfsnood vasthangen opgelijst. Bij het klikken op een item zal worden doorverwezen naar een oplossing-detailpagina. De content manager kiest welke oplossingen op de home pagina moeten worden weergegeven, wordt er niets gekozen dan zal dit onderdeel weggelaten worden.
 
