@@ -1,6 +1,4 @@
 # Oplossing detailpagina
 
-Op de oplossing detailpagina's worden oplossingen 
-
-
+De oplossingen detailpagina's zijn oplossingen die ABC-Groep kan bieden aan klanten. 
 
