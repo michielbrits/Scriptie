@@ -12,7 +12,5 @@ In dit onderdeel worden oplossingen die aan deze bedrijfsnood vasthangen opgelij
 
 ### Projecten
 
-Bij projecten kan de content manager specifiëren welke bedrijfsnood hieraan vooraf ging. 
-
-
+Bij projecten kan de content manager specifiëren welke bedrijfsnood hieraan vooraf ging.
 
