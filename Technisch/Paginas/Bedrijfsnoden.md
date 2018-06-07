@@ -14,3 +14,9 @@ In dit onderdeel worden oplossingen die aan deze bedrijfsnood vasthangen opgelij
 
 Bij projecten kan de content manager specifiëren welke bedrijfsnood hieraan vooraf ging. Dit wordt echter niet ingesteld op deze pagina maar op de project detailpagina.
 
+### Call to action
+
+Na het lezen van de pagina herkent de toekomstige klant wellicht het probleem bij zijn bedrijf en zal hij besluiten actie te ondernemen. Dit zal hij met een druk op de knop kunnen beginnen door op de opvallende knop te drukken waarna een formulier zal verschijnen.
+
+
+
