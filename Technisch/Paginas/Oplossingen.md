@@ -16,5 +16,5 @@ Hier kunnen recensies van klanten die voor deze oplossing gekozen hebben worden 
 
 ### Call to action
 
-Na het lezen van de pagina herkent de toekomstige klant wellicht het probleem bij zijn bedrijf en zal hij besluiten actie te ondernemen. Dit zal hij met een druk op de knop kunnen beginnen door op de opvallende knop te drukken waarna een formulier zal verschijnen.
+Na het lezen van de pagina zal de klant mogelijk voor deze oplossing willen kiezen en contact opnemen. Dit zal hij met een druk op de knop kunnen beginnen door op de opvallende knop te drukken waarna een formulier zal verschijnen.
 
