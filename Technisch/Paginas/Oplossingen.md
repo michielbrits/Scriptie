@@ -10,3 +10,9 @@ In feature blocks kan de oplossing op een meer gestructureerde manier verder toe
 
 Hier worden bedrijfsnoden opgelijst waarvoor deze oplossing geboden wordt.
 
+### Recensies
+
+Hier kunnen recensies van klanten die voor deze oplossing gekozen hebben worden weergegeven.
+
+
+
