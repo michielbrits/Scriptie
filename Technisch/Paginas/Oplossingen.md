@@ -1,4 +1,4 @@
-# Oplossing
+# Oplossing detailpagina
 
 
 
