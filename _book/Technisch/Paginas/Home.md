@@ -1,5 +1,7 @@
 # Home pagina
 
+De home pagina is de eerste pagina die de bezoeker zal zien. Hier wordt vooral de inhoud van de andere pagina's kort samengevat weergegeven.
+
 ### Image slider
 De image slider is het eerste onderdeel van de home pagina dat bezoekers te zien krijgen. Dit is een verzameling foto's (slides) die na elkaar weergegeven worden. Wanneer men op een slide klikt zal worden doorverwezen naar een andere pagina.
 
