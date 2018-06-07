@@ -14,5 +14,7 @@ Hier worden bedrijfsnoden opgelijst waarvoor deze oplossing geboden wordt.
 
 Hier kunnen recensies van klanten die voor deze oplossing gekozen hebben worden weergegeven.
 
+### Call to action
 
+Na het lezen van de pagina herkent de toekomstige klant wellicht het probleem bij zijn bedrijf en zal hij besluiten actie te ondernemen. Dit zal hij met een druk op de knop kunnen beginnen door op de opvallende knop te drukken waarna een formulier zal verschijnen.
 
