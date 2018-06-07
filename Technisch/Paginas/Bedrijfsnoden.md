@@ -4,5 +4,5 @@ De bedrijfsnoden pagina's zijn pagina's die problemen waar \(potentiële\) klant
 
 ### Feature Blocks
 
-In feature blocks kan het probleem op een meer gestructureerde manier beschreven worden. Zo kunnen er één of meerdere tabs worden toegevoegd met elk hun eigen beschrijving. 
+In feature blocks kan het probleem op een meer gestructureerde manier beschreven worden. Zo kunnen er één of meerdere tabs worden toegevoegd met elk hun eigen beschrijving. Links of rechts van de beschrijving bevindt zich een foto of Youtube filmpje dat ook vast hangt aan een tab.
 
