@@ -8,7 +8,5 @@ In feature blocks kan de oplossing op een meer gestructureerde manier verder toe
 
 ### Bedrijfsnoden
 
-Hier worden bedrijfsnoden opgelijst waarvoor deze oplossing geboden wordt. 
-
-
+Hier worden bedrijfsnoden opgelijst waarvoor deze oplossing geboden wordt.
 
