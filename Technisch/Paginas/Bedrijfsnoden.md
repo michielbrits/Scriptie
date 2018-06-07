@@ -1,4 +1,4 @@
-# Bedrijfsnoden
+# Bedrijfsnood detailpagina
 
 De bedrijfsnoden pagina's zijn pagina's die problemen waar \(potentiële\) klanten mee zitten, aankaarten. Aan een bedrijfsnood zijn dan ook een of meerdere oplossing pagina's gekoppeld. Aan het begin van de pagina wordt kort het probleem dat moet worden opgelost toegelicht.
 
@@ -17,8 +17,4 @@ Bij projecten kan de content manager specifiëren welke bedrijfsnood hieraan voo
 ### Call to action
 
 Na het lezen van de pagina herkent de toekomstige klant wellicht het probleem bij zijn bedrijf en zal hij besluiten actie te ondernemen. Dit zal hij met een druk op de knop kunnen beginnen door op de opvallende knop te drukken waarna een formulier zal verschijnen.
-
-
-
-
 
