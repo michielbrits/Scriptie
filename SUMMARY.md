@@ -22,7 +22,7 @@
         * [Blog](Technisch/Paginas/Blog.md)
         * [Contact](Technisch/Paginas/Contact.md)
         * [Zoeken](Technisch/Paginas/Zoeken.md)
-      * [Onderdelen](Technisch/Resultaat website/onderdelen.md)
+      * [Instellen onderdelen](Technisch/Resultaat website/onderdelen.md)
         * [Image slider](Technisch/Onderdelen/Home/Image slider.md)
         * [Bedrijfsnoden](Technisch/Onderdelen/Home/Bedrijfsnoden.md)
         * [Projecten](Technisch/Onderdelen/Home/Projecten.md)
