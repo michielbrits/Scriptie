@@ -6,3 +6,11 @@ De bedrijfsnoden pagina's zijn pagina's die problemen waar \(potentiële\) klant
 
 In feature blocks kan het probleem op een meer gestructureerde manier beschreven worden. Zo kunnen er één of meerdere tabs worden toegevoegd met elk hun eigen beschrijving. Links of rechts van de beschrijving bevindt zich een foto of Youtube filmpje dat ook vast hangt aan een tab.
 
+### Oplossingen
+
+In dit onderdeel worden oplossingen die aan deze bedrijfsnood vasthangen opgelijst. Dit is een verzameling van de pagina's die onder de pagina "Oplossingen" zijn gemaakt. Bij het klikken op een item zal worden doorverwezen naar een oplossing-detailpagina. De content manager kiest welke oplossingen op de home pagina moeten worden weergegeven, wordt er niets gekozen dan zal dit onderdeel weggelaten worden.
+
+
+
+
+
