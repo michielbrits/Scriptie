@@ -1,18 +1,39 @@
 # Summary
-* [Inhoudsopgave](Summary.md)
-* [Voorwoord](Voorwoord/README.md)
-* [Introductie](./README.md)
-* [Abstract](Abstract/README.md)
-* [Technisch](Technisch/README.md)
-	* [Beschrijving gevolgde ontwikkelproces](Planning/README.md)
-	* [Implementatie website](Website onderdelen/README.md)
-	* [Onderzoek E-commerce](Onderzoek E-Commerce/README.md)
-    * [Implementatie E-commerce](f)
-	* [Gebruikte technologieen en uitwerking](Gebruikte technologieen/README.md)
-* [Toekomst](toekomst/README.md)
-* [Resultaten](Resultaten/README.md)
-* [Besluit](Besluit/README.md)
-* [Glossary](Glossary/README.md)
 
+* [Introduction](README.md)
+* Inhoudsopgave
+* Abstract
+* Dankwoord
+* Introductie
+* [Technisch](technisch.md)
+  * Werkwijze
+  * Website
+    * [Analyse](Technisch/Analyse website.md)
+    * [Aanpak](Technisch/Aanpak website.md)
+    * [Resultaat](Technisch/Resultaat website.md)
+      * [Pagina's](Technisch/Resultaat website/paginas.md)
+        * [Home pagina](Technisch/Paginas/Home.md)
+        * [Bedrijfsnoden](Technisch/Paginas/Bedrijfsnoden.md)
+        * [Oplossingen](Technisch/Paginas/Oplossingen.md)
+        * [Over ons](Technisch/Paginas/Over ons.md)
+        * [Jobs](Technisch/Paginas/Jobs.md)
+        * [Projecten](Technisch/Paginas/Projecten.md)
+        * [Nieuws](Technisch/Paginas/Nieuws.md)
+        * [Blog](Technisch/Paginas/Blog.md)
+        * [Contact](Technisch/Paginas/Contact.md)
+        * [Zoeken](Technisch/Paginas/Zoeken.md)
+      * [Instellen onderdelen](Technisch/Resultaat website/onderdelen.md)
+        * [Image slider](Technisch/Onderdelen/Home/Image slider.md)
+        * [Bedrijfsnoden](Technisch/Onderdelen/Home/Bedrijfsnoden.md)
+        * [Projecten](Technisch/Onderdelen/Home/Projecten.md)
+        * [Oplossingen](Technisch/Onderdelen/Home/Oplossingen.md)
+        * [Recensies](Technisch/Onderdelen/Home/Recensies.md)
+        * [Ons team](Technisch/Onderdelen/Home/Ons team.md)
+        * [Call to action](Technisch/Onderdelen/Home/Call to action.md)
+        * [Vacatures](Technisch/Onderdelen/Home/Vacatures.md)
+        * [Popup](Technisch/Onderdelen/Home/Popup.md)
+  * Webshop
+    * Analyse
+    * Aanpak
+    * Resultaat
 
-  
